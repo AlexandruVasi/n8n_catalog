@@ -174,5 +174,180 @@
 			"tsla",
 			"fmp"
 		]
+	},
+	"tsla_ema20_d": {
+		"source": "google_sheet",
+		"workbook_name": "Technical Analysis_TSLA",
+		"sheet_url": "https://docs.google.com/spreadsheets/d/17eAkcYmJLtQyLMEIUtZzh4lhMVA8WSMvQ36qFYmLpFI/edit#gid=0",
+		"sheet_id": "17eAkcYmJLtQyLMEIUtZzh4lhMVA8WSMvQ36qFYmLpFI",
+		"sheet_name": "EMA20",
+		"symbol": "TSLA",
+		"frequency": "daily",
+		"description": "TSLA 20-day Exponential Moving Average",
+		"pk": [
+			"date"
+		],
+		"columns": {
+			"date": "date",
+			"open": "float",
+			"close": "float",
+			"volume": "int",
+			"ema": "float"
+		},
+		"tags": [
+			"technical",
+			"ema",
+			"tsla"
+		]
+	},
+	"tsla_ema50_d": {
+		"source": "google_sheet",
+		"workbook_name": "Technical Analysis_TSLA",
+		"sheet_url": "https://docs.google.com/spreadsheets/d/17eAkcYmJLtQyLMEIUtZzh4lhMVA8WSMvQ36qFYmLpFI/edit#gid=0",
+		"sheet_id": "17eAkcYmJLtQyLMEIUtZzh4lhMVA8WSMvQ36qFYmLpFI",
+		"sheet_name": "EMA50",
+		"symbol": "TSLA",
+		"frequency": "daily",
+		"description": "TSLA 50-day Exponential Moving Average",
+		"pk": [
+			"date"
+		],
+		"columns": {
+			"date": "date",
+			"open": "float",
+			"close": "float",
+			"volume": "int",
+			"ema": "float"
+		},
+		"tags": [
+			"technical",
+			"ema",
+			"tsla"
+		]
+	},
+	"tsla_ema200_d": {
+		"source": "google_sheet",
+		"workbook_name": "Technical Analysis_TSLA",
+		"sheet_url": "https://docs.google.com/spreadsheets/d/17eAkcYmJLtQyLMEIUtZzh4lhMVA8WSMvQ36qFYmLpFI/edit#gid=0",
+		"sheet_id": "17eAkcYmJLtQyLMEIUtZzh4lhMVA8WSMvQ36qFYmLpFI",
+		"sheet_name": "EMA200",
+		"symbol": "TSLA",
+		"frequency": "daily",
+		"description": "TSLA 200-day Exponential Moving Average",
+		"pk": [
+			"date"
+		],
+		"columns": {
+			"date": "date",
+			"open": "float",
+			"close": "float",
+			"volume": "int",
+			"ema": "float"
+		},
+		"tags": [
+			"technical",
+			"ema",
+			"tsla"
+		]
+	},
+	"tsla_rsi_d": {
+		"source": "google_sheet",
+		"workbook_name": "Technical Analysis_TSLA",
+		"sheet_url": "https://docs.google.com/spreadsheets/d/17eAkcYmJLtQyLMEIUtZzh4lhMVA8WSMvQ36qFYmLpFI/edit#gid=0",
+		"sheet_id": "17eAkcYmJLtQyLMEIUtZzh4lhMVA8WSMvQ36qFYmLpFI",
+		"sheet_name": "RSI",
+		"symbol": "TSLA",
+		"frequency": "daily",
+		"description": "TSLA Relative Strength Index",
+		"pk": [
+			"date"
+		],
+		"columns": {
+			"date": "date",
+			"open": "float",
+			"close": "float",
+			"volume": "int",
+			"rsi": "float"
+		},
+		"tags": [
+			"technical",
+			"rsi",
+			"tsla"
+		]
+	},
+	"tsla_sd_d": {
+		"source": "google_sheet",
+		"workbook_name": "Technical Analysis_TSLA",
+		"sheet_url": "https://docs.google.com/spreadsheets/d/17eAkcYmJLtQyLMEIUtZzh4lhMVA8WSMvQ36qFYmLpFI/edit#gid=0",
+		"sheet_id": "17eAkcYmJLtQyLMEIUtZzh4lhMVA8WSMvQ36qFYmLpFI",
+		"sheet_name": "SD",
+		"symbol": "TSLA",
+		"frequency": "daily",
+		"description": "TSLA rolling price standard deviation",
+		"pk": [
+			"date"
+		],
+		"columns": {
+			"date": "date",
+			"open": "float",
+			"close": "float",
+			"volume": "int",
+			"stdDev": "float"
+		},
+		"tags": [
+			"technical",
+			"volatility",
+			"tsla"
+		]
+	},
+	"tsla_williams_d": {
+		"source": "google_sheet",
+		"workbook_name": "Technical Analysis_TSLA",
+		"sheet_url": "https://docs.google.com/spreadsheets/d/17eAkcYmJLtQyLMEIUtZzh4lhMVA8WSMvQ36qFYmLpFI/edit#gid=0",
+		"sheet_id": "17eAkcYmJLtQyLMEIUtZzh4lhMVA8WSMvQ36qFYmLpFI",
+		"sheet_name": "Wiliams",
+		"symbol": "TSLA",
+		"frequency": "daily",
+		"description": "TSLA Williams %R oscillator",
+		"pk": [
+			"date"
+		],
+		"columns": {
+			"date": "date",
+			"open": "float",
+			"close": "float",
+			"volume": "int",
+			"williams": "float"
+		},
+		"tags": [
+			"technical",
+			"williams",
+			"tsla"
+		]
+	},
+	"tsla_adx_d": {
+		"source": "google_sheet",
+		"workbook_name": "Technical Analysis_TSLA",
+		"sheet_url": "https://docs.google.com/spreadsheets/d/17eAkcYmJLtQyLMEIUtZzh4lhMVA8WSMvQ36qFYmLpFI/edit#gid=0",
+		"sheet_id": "17eAkcYmJLtQyLMEIUtZzh4lhMVA8WSMvQ36qFYmLpFI",
+		"sheet_name": "ADX",
+		"symbol": "TSLA",
+		"frequency": "daily",
+		"description": "TSLA Average Directional Index",
+		"pk": [
+			"date"
+		],
+		"columns": {
+			"date": "date",
+			"open": "float",
+			"close": "float",
+			"volume": "int",
+			"adx": "float"
+		},
+		"tags": [
+			"technical",
+			"adx",
+			"tsla"
+		]
 	}
 }
