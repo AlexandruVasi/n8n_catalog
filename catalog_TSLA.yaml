@@ -377,7 +377,7 @@
       "NASDAQ_Open": {
         "description": "NASDAQ trading calendar including holidays and market open/close times",
         "frequency": "daily",
-        "available_period": "current_year",
+        "available_period": "current_day",
         "columns": [
           "Exchange", "Timezone", "Last Update", "Open", "Close", "isTradingDay", "isHoliday", "isWeekend"
         ],
@@ -386,7 +386,7 @@
       "CME_Open": {
         "description": "CME trading calendar with open/close times",
         "frequency": "daily",
-        "available_period": "current_year",
+        "available_period": "current_day",
         "columns": [
           "Exchange", "Timezone", "Last Update", "Open", "Close"
         ],
@@ -395,11 +395,20 @@
       "CBOE_Open": {
         "description": "CBOE trading calendar with open/close times",
         "frequency": "daily",
-        "available_period": "current_year",
+        "available_period": "current_day",
         "columns": [
           "Exchange", "Timezone", "Last Update", "Open", "Close"
         ],
         "tags": ["calendar", "cboe", "market_hours"]
+      },     
+      "Holidays2025": {
+        "description": "Holidays in 2025 trading calendar",
+        "frequency": "yearly",
+        "available_period": "current_year",
+        "columns": [
+          "date", "name", "isClosed", "adjOpenTime", "CladjCloseTimeose"
+        ],
+        "tags": ["holiday", "calendar 2025"]
       },
       "MacroEvents": {
         "description": "Macroeconomic events with impact categorization for past and upcoming year",
