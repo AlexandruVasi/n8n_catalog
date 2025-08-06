@@ -1,0 +1,108 @@
+{
+  "tsla_finstat_q": {
+    "description": "Tesla fundamentals – 20 trimestre (Revenue, EPS, cash-flow etc.)",
+    "frequency": "quarterly",
+    "symbol": "TSLA",
+    "columns": [
+      "date", "period", "Revenue", "Gross_Profit", "Operating_Income_EBIT", "EBITDA", 
+      "Net_Income", "EPS", "Free_Cash_Flow", "Operating_Cash_Flow", "CapEx", 
+      "Cash_End_Period", "Interest_Income", "Interest_Expense", "Income_Before_Tax", 
+      "Total_Expenses", "totalLiabilities", "totalDebt", "netDebt", 
+      "totalStockholdersEquity", "retainedEarnings", "totalInvestments"
+    ],
+    "tags": ["fundamentals"]
+  },
+  "tsla_ratios_q": {
+    "description": "Tesla profitabilitate & eficiență – ROA, ROE, yields, coverage ratios (20Q)",
+    "frequency": "quarterly",
+    "symbol": "TSLA",
+    "columns": [
+      "date", "period", "returnOnAssets", "returnOnEquity", "returnOnInvestedCapital", 
+      "returnOnCapitalEmployed", "freeCashFlowYield", "earningsYield", "capexToRevenue", 
+      "researchAndDevelopementToRevenue", "daysOfSalesOutstanding", "daysOfInventoryOutstanding", 
+      "daysOfPayablesOutstanding", "cashConversionCycle", "interestCoverageRatio", 
+      "debtServiceCoverageRatio", "operatingCashFlowCoverageRatio", "capitalExpenditureCoverageRatio", 
+      "priceToFairValue", "debtToMarketCap", "enterpriseValueMultiple", "effectiveTaxRate"
+    ],
+    "tags": ["ratios"]
+  },
+  "tsla_currana_q": {
+    "description": "Tesla current-analysis metrics: owner’s earnings, maintenance vs growth capex (20Q)",
+    "frequency": "quarterly",
+    "symbol": "TSLA",
+    "columns": [
+      "date", "period", "ownersEarnings", "ownersEarningsPerShare", 
+      "maintenanceCapex", "growthCapex"
+    ],
+    "tags": ["cashflow"]
+  },
+  "tsla_growth_q": {
+    "description": "Tesla growth rates – revenue, EPS, FCF, multi-horizon CAGR (20Q)",
+    "frequency": "quarterly",
+    "symbol": "TSLA",
+    "columns": [
+      "date", "period", "growthRevenue", "growthGrossProfit", "growthOperatingIncome", 
+      "growthEBITDA", "growthNetIncome", "growthEPS", "growthFreeCashFlow", 
+      "growthOperatingCashFlow", "growthCapitalExpenditure", "debtGrowth", 
+      "inventoryGrowth", "receivablesGrowth", "assetGrowth", "bookValuePerShareGrowth", 
+      "rdexpenseGrowth", "sgaexpensesGrowth", "threeYRevenueGrowthPerShare", 
+      "fiveYRevenueGrowthPerShare", "tenYRevenueGrowthPerShare", 
+      "threeYOperatingCFGrowthPerShare", "fiveYOperatingCFGrowthPerShare", 
+      "tenYOperatingCFGrowthPerShare", "threeYNetIncomeGrowthPerShare", 
+      "fiveYNetIncomeGrowthPerShare", "tenYNetIncomeGrowthPerShare", 
+      "threeYShareholdersEquityGrowthPerShare", "fiveYShareholdersEquityGrowthPerShare", 
+      "tenYShareholdersEquityGrowthPerShare"
+    ],
+    "tags": ["growth"]
+  },
+  "tsla_ema20_d": {
+    "description": "TSLA 20-day Exponential Moving Average",
+    "frequency": "daily",
+    "symbol": "TSLA",
+    "columns": ["date", "open", "close", "volume", "ema"],
+    "tags": ["technical", "ema"]
+  },
+  "tsla_ema50_d": {
+    "description": "TSLA 50-day Exponential Moving Average",
+    "frequency": "daily",
+    "symbol": "TSLA",
+    "columns": ["date", "open", "close", "volume", "ema"],
+    "tags": ["technical", "ema"]
+  },
+  "tsla_ema200_d": {
+    "description": "TSLA 200-day Exponential Moving Average",
+    "frequency": "daily",
+    "symbol": "TSLA",
+    "columns": ["date", "open", "close", "volume", "ema"],
+    "tags": ["technical", "ema"]
+  },
+  "tsla_rsi_d": {
+    "description": "TSLA Relative Strength Index",
+    "frequency": "daily",
+    "symbol": "TSLA",
+    "columns": ["date", "open", "close", "volume", "rsi"],
+    "tags": ["technical", "rsi"]
+  },
+  "tsla_sd_d": {
+    "description": "TSLA rolling price standard deviation",
+    "frequency": "daily",
+    "symbol": "TSLA",
+    "columns": ["date", "open", "close", "volume", "stdDev"],
+    "tags": ["technical", "volatility"]
+  },
+  "tsla_williams_d": {
+    "description": "TSLA Williams %R oscillator",
+    "frequency": "daily",
+    "symbol": "TSLA",
+    "columns": ["date", "open", "close", "volume", "williams"],
+    "tags": ["technical", "williams"]
+  },
+  "tsla_adx_d": {
+    "description": "TSLA Average Directional Index",
+    "frequency": "daily",
+    "symbol": "TSLA",
+    "columns": ["date", "open", "close", "volume", "adx"],
+    "tags": ["technical", "adx"]
+  }
+}
+
