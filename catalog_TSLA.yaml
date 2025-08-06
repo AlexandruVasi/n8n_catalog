@@ -2,7 +2,7 @@
   "GetData_TSLA": {
     "description": "Tesla quarterly fundamentals, ratios, growth metrics and daily technical indicators.",
     "datasets": {
-      "tsla_finstat_q": {
+      "TSLA_FinStat_20Q": {
         "description": "Tesla fundamentals – 20 trimestre (Revenue, EPS, cash-flow etc.)",
         "frequency": "quarterly",
         "symbol": "TSLA",
@@ -16,7 +16,7 @@
         ],
         "tags": ["fundamentals"]
       },
-      "tsla_ratios_q": {
+      "TSLA_Rat_20Q": {
         "description": "Tesla profitabilitate & eficiență – ROA, ROE, yields, coverage ratios (20Q)",
         "frequency": "quarterly",
         "symbol": "TSLA",
@@ -31,7 +31,7 @@
         ],
         "tags": ["ratios"]
       },
-      "tsla_currana_q": {
+      "TSLA_CurrAna_20Q": {
         "description": "Tesla current-analysis metrics: owner’s earnings, maintenance vs growth capex (20Q)",
         "frequency": "quarterly",
         "symbol": "TSLA",
@@ -42,7 +42,7 @@
         ],
         "tags": ["cashflow"]
       },
-      "tsla_growth_q": {
+      "TSLA_Growth_20Q": {
         "description": "Tesla growth rates – revenue, EPS, FCF, multi-horizon CAGR (20Q)",
         "frequency": "quarterly",
         "symbol": "TSLA",
@@ -62,7 +62,7 @@
         ],
         "tags": ["growth"]
       },
-      "tsla_ema20_d": {
+      "TSLA_EMA20_1Y": {
         "description": "TSLA 20-day Exponential Moving Average",
         "frequency": "daily",
         "symbol": "TSLA",
@@ -70,7 +70,7 @@
         "columns": ["date", "open", "close", "volume", "ema"],
         "tags": ["technical", "ema"]
       },
-      "tsla_ema50_d": {
+      "TSLA_EMA50_1Y": {
         "description": "TSLA 50-day Exponential Moving Average",
         "frequency": "daily",
         "symbol": "TSLA",
@@ -78,7 +78,7 @@
         "columns": ["date", "open", "close", "volume", "ema"],
         "tags": ["technical", "ema"]
       },
-      "tsla_ema200_d": {
+      "TSLA_EMA200_1Y": {
         "description": "TSLA 200-day Exponential Moving Average",
         "frequency": "daily",
         "symbol": "TSLA",
@@ -86,7 +86,7 @@
         "columns": ["date", "open", "close", "volume", "ema"],
         "tags": ["technical", "ema"]
       },
-      "tsla_rsi_d": {
+      "TSLA_RSI_1Y": {
         "description": "TSLA Relative Strength Index",
         "frequency": "daily",
         "symbol": "TSLA",
@@ -94,7 +94,7 @@
         "columns": ["date", "open", "close", "volume", "rsi"],
         "tags": ["technical", "rsi"]
       },
-      "tsla_sd_d": {
+      "TSLA_SD_1Y": {
         "description": "TSLA rolling price standard deviation",
         "frequency": "daily",
         "symbol": "TSLA",
@@ -102,7 +102,7 @@
         "columns": ["date", "open", "close", "volume", "stdDev"],
         "tags": ["technical", "volatility"]
       },
-      "tsla_williams_d": {
+      "TSLA_Williams_1Y": {
         "description": "TSLA Williams %R oscillator",
         "frequency": "daily",
         "symbol": "TSLA",
@@ -110,7 +110,7 @@
         "columns": ["date", "open", "close", "volume", "williams"],
         "tags": ["technical", "williams"]
       },
-      "tsla_adx_d": {
+      "TSLA_ADX_1Y": {
         "description": "TSLA Average Directional Index",
         "frequency": "daily",
         "symbol": "TSLA",
@@ -123,7 +123,7 @@
   "GetData_SPY": {
     "description": "SPY daily technical indicators for the last year.",
     "datasets": {
-      "spy_ema20_d": {
+      "EMA20 SPY": {
         "description": "SPY 20-day Exponential Moving Average",
         "frequency": "daily",
         "symbol": "SPY",
@@ -131,7 +131,7 @@
         "columns": ["date", "open", "close", "volume", "ema"],
         "tags": ["technical", "ema"]
       },
-      "spy_ema50_d": {
+      "EMA50 SPY": {
         "description": "SPY 50-day Exponential Moving Average",
         "frequency": "daily",
         "symbol": "SPY",
@@ -139,7 +139,7 @@
         "columns": ["date", "open", "close", "volume", "ema"],
         "tags": ["technical", "ema"]
       },
-      "spy_ema200_d": {
+      "EMA200 SPY": {
         "description": "SPY 200-day Exponential Moving Average",
         "frequency": "daily",
         "symbol": "SPY",
@@ -147,7 +147,7 @@
         "columns": ["date", "open", "close", "volume", "ema"],
         "tags": ["technical", "ema"]
       },
-      "spy_rsi_d": {
+      "RSI SPY": {
         "description": "SPY Relative Strength Index",
         "frequency": "daily",
         "symbol": "SPY",
@@ -155,7 +155,7 @@
         "columns": ["date", "open", "close", "volume", "rsi"],
         "tags": ["technical", "rsi"]
       },
-      "spy_sd_d": {
+      "SD SPY": {
         "description": "SPY rolling price standard deviation",
         "frequency": "daily",
         "symbol": "SPY",
@@ -163,7 +163,7 @@
         "columns": ["date", "open", "close", "volume", "stdDev"],
         "tags": ["technical", "volatility"]
       },
-      "spy_williams_d": {
+      "Williams SPY": {
         "description": "SPY Williams %R oscillator",
         "frequency": "daily",
         "symbol": "SPY",
@@ -171,7 +171,7 @@
         "columns": ["date", "open", "close", "volume", "williams"],
         "tags": ["technical", "williams"]
       },
-      "spy_adx_d": {
+      "ADX SPY": {
         "description": "SPY Average Directional Index",
         "frequency": "daily",
         "symbol": "SPY",
@@ -185,7 +185,7 @@
   "GetData_TSLA_Guru": {
     "description": "Tesla market intelligence: short interest, options activity, insider trades, sentiment, analyst estimates, macro factors, and company knowledge.",
     "datasets": {
-      "tsla_short_interest_d": {
+      "ShortInterest": {
         "description": "Tesla short interest data",
         "frequency": "daily",
         "symbol": "TSLA",
@@ -195,7 +195,7 @@
         ],
         "tags": ["market", "short_interest"]
       },
-      "tsla_put_call_ratio_d": {
+      "Put/Call Ratio": {
         "description": "Tesla options put/call ratio",
         "frequency": "daily",
         "symbol": "TSLA",
@@ -205,7 +205,7 @@
         ],
         "tags": ["options", "put_call_ratio"]
       },
-      "tsla_insider_trades_d": {
+      "InsiderTrades": {
         "description": "Tesla insider transactions",
         "frequency": "daily",
         "symbol": "TSLA",
@@ -215,7 +215,7 @@
         ],
         "tags": ["insider", "trades"]
       },
-      "tsla_sentiment_d": {
+      "Sentiment": {
         "description": "Tesla market sentiment",
         "frequency": "daily",
         "symbol": "TSLA",
@@ -225,7 +225,7 @@
         ],
         "tags": ["sentiment", "market"]
       },
-      "tsla_analyst_estimates_d": {
+      "AnalystEstimates": {
         "description": "Tesla analyst EPS and revenue estimates",
         "frequency": "daily",
         "symbol": "TSLA",
@@ -237,7 +237,7 @@
         ],
         "tags": ["analyst", "estimates"]
       },
-      "tsla_insider_stats_q": {
+      "InsiderStats": {
         "description": "Tesla insider trading statistics",
         "frequency": "quarterly",
         "symbol": "TSLA",
@@ -249,28 +249,28 @@
         ],
         "tags": ["insider", "statistics"]
       },
-      "macro_treasury10y_d": {
+      "Treasury10Y": {
         "description": "US Treasury yields (10Y, 20Y)",
         "frequency": "daily",
         "available_period": "last_1y",
         "columns": ["date", "10y", "20y"],
         "tags": ["macro", "rates"]
       },
-      "forex_eurusd_d": {
+      "ForexEurUsd": {
         "description": "EUR/USD exchange rate",
         "frequency": "daily",
         "available_period": "last_1y",
         "columns": ["date", "price", "volume"],
         "tags": ["forex", "eurusd"]
       },
-      "forex_cnyusd_d": {
+      "ForexCNYUSD": {
         "description": "CNY/USD exchange rate",
         "frequency": "daily",
         "available_period": "last_1y",
         "columns": ["date", "price"],
         "tags": ["forex", "cnyusd"]
       },
-      "guru_company_knowledge": {
+      "Knowledge": {
         "description": "General structured and unstructured knowledge about Tesla",
         "type": "document",
         "available_period": "static",
@@ -281,14 +281,14 @@
   "GetData_Indexes": {
     "description": "Major US indexes, volatility, and sentiment indicators for the last year.",
     "datasets": {
-      "fear_and_greed_d": {
+      "FearAndGreed": {
         "description": "Fear and Greed index score and rating",
         "frequency": "daily",
         "available_period": "last_1y",
         "columns": ["date", "scor", "rating"],
         "tags": ["sentiment", "macro"]
       },
-      "spx_d": {
+      "SPX": {
         "description": "S&P 500 index daily OHLCV data",
         "frequency": "daily",
         "symbol": "SPX",
@@ -298,7 +298,7 @@
         ],
         "tags": ["index", "spx", "ohlcv"]
       },
-      "ndx_d": {
+      "NDX": {
         "description": "Nasdaq-100 index daily OHLCV data",
         "frequency": "daily",
         "symbol": "NDX",
@@ -308,7 +308,7 @@
         ],
         "tags": ["index", "ndx", "ohlcv"]
       },
-      "dji_d": {
+      "DJI": {
         "description": "Dow Jones Industrial Average daily OHLCV data",
         "frequency": "daily",
         "symbol": "DJI",
@@ -318,7 +318,7 @@
         ],
         "tags": ["index", "dji", "ohlcv"]
       },
-      "vix_d": {
+      "VIX": {
         "description": "CBOE Volatility Index (VIX) daily OHLCV data",
         "frequency": "daily",
         "symbol": "VIX",
@@ -334,7 +334,7 @@
   "GetData_News": {
     "description": "Market-wide and Tesla-specific news with sentiment analysis, forecast impact, and rationale. Updated daily, covers last 7 days.",
     "datasets": {
-      "general_news_d": {
+      "GeneralNews": {
         "description": "General market news with sentiment, confidence, impact direction, and multi-horizon forecasts",
         "frequency": "daily",
         "available_period": "last_7d",
@@ -351,7 +351,7 @@
         ],
         "tags": ["news", "general", "sentiment", "forecast"]
       },
-      "tsla_news_d": {
+      "TSLASpecific": {
         "description": "Tesla-specific news with sentiment, confidence, impact direction, and multi-horizon forecasts",
         "frequency": "daily",
         "symbol": "TSLA",
@@ -374,7 +374,7 @@
     "GetData_Calendar": {
     "description": "Trading calendars for major exchanges, macroeconomic events, and Tesla-specific events.",
     "datasets": {
-      "calendar_nasdaq": {
+      "NASDAQ_Open": {
         "description": "NASDAQ trading calendar including holidays and market open/close times",
         "frequency": "daily",
         "available_period": "current_year",
@@ -383,7 +383,7 @@
         ],
         "tags": ["calendar", "nasdaq", "market_hours"]
       },
-      "calendar_cme": {
+      "CME_Open": {
         "description": "CME trading calendar with open/close times",
         "frequency": "daily",
         "available_period": "current_year",
@@ -392,7 +392,7 @@
         ],
         "tags": ["calendar", "cme", "market_hours"]
       },
-      "calendar_cboe": {
+      "CBOE_Open": {
         "description": "CBOE trading calendar with open/close times",
         "frequency": "daily",
         "available_period": "current_year",
@@ -401,7 +401,7 @@
         ],
         "tags": ["calendar", "cboe", "market_hours"]
       },
-      "macro_events": {
+      "MacroEvents": {
         "description": "Macroeconomic events with impact categorization for past and upcoming year",
         "frequency": "daily",
         "available_period": "last_1y_next_1y",
@@ -410,7 +410,7 @@
         ],
         "tags": ["macro", "events"]
       },
-      "tsla_events": {
+      "TSLAEvents": {
         "description": "Tesla-specific events with impact level for past and upcoming year",
         "frequency": "daily",
         "symbol": "TSLA",
