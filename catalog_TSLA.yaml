@@ -413,7 +413,7 @@
       "MacroEvents": {
         "description": "Macroeconomic events with impact categorization for past and upcoming year",
         "frequency": "daily",
-        "available_period": "last_1y_next_1y",
+        "available_period": "next_1y",
         "columns": [
           "weekKey", "date", "time", "event", "category", "impact"
         ],
@@ -423,7 +423,7 @@
         "description": "Tesla-specific events with impact level for past and upcoming year",
         "frequency": "daily",
         "symbol": "TSLA",
-        "available_period": "last_1y_next_1y",
+        "available_period": "next_1y",
         "columns": [
           "weekKey", "date", "event", "impact"
         ],
